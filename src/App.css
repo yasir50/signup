@@ -1,0 +1,58 @@
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #E2EDFF;
+  min-height: 80vh;
+  max-width: 80%;
+  place-items: center;
+  border-radius: 40px;
+}
+.fields {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.signUp {
+  font-weight: bold;
+  font-size: larger;
+}
+.already {
+  font-weight: 400;
+  font-size: small;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.fields {
+  align-items: center;
+}
+.form-floating {
+  width: 300px;
+  justify-self: right;
+  margin-left: 100px;
+}
+.form-floating label {
+  font-style: italic;
+  font-size: small;
+}
+
+.form-check {
+  margin-top: 16px;
+  font-size: small;
+}
+.btn {
+  /* border: 2px solid black; */
+  margin-top: 16px;
+}
+.btn button{
+  font-size: small;
+justify-content: center;
+padding: 12px;
+border-radius: 50px;
+background-color: white;
+border: 1px solid black;
+}
+.mainContainer{
+  background-color: #00419B;
+  height: 100vh;
+  width: 100%;
+padding-top: 80px;
+}
